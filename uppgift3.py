@@ -21,14 +21,14 @@ print(",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,")
 pris = 2000
 rea_procent = 75.0
 slut_pris = pris * rea_procent / 100
-print("2a: jackan kostar:", slut_pris, "kr efter 75% rea." )
+print("2a: jackan kostar:", slut_pris, "kr som är 75% av original priset." )
 
 # 2b: Låt användaren skriva in egen rea-procent
 
 pris = 2000
 rea_procent = float(input("Skriv rea-procent (t.ex. 10, 50, 75): "))
 
-slut_pris = pris * rea_procent / 100
+slut_pris = pris -  (pris * rea_procent / 100)
 
 print("2b: Jackan kostar:", slut_pris, "kr efter din rea.")
 print(",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,")
