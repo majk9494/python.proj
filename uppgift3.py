@@ -31,3 +31,5 @@ rea_procent = float(input("Skriv rea-procent (t.ex. 10, 50, 75): "))
 slut_pris = pris * rea_procent / 100
 
 print("2b: Jackan kostar:", slut_pris, "kr efter din rea.")
+print(",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+      "")
