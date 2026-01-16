@@ -32,3 +32,4 @@ slut_pris = pris * rea_procent / 100
 
 print("2b: Jackan kostar:", slut_pris, "kr efter din rea.")
 print(",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,")
+# Hej
