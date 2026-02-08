@@ -11,7 +11,8 @@ foo("hej")
 def fun1(x, y):
     return x * y
 
-print(3, 5)
+print(fun1(3, 5))
+
 
 
 #1c. jag tror den kommer skriva ut 15 i uträkningen nu för att fun1 är med i printen
