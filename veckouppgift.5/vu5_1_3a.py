@@ -75,3 +75,4 @@ def test_mixed_case():
     assert count_vowels("YOLO") == 2
 
 # 5 tester får passed och 1 får failed alltså den sista med pytest
+# Den failar för att den för YOLO innehåller 3 vokaler istället för 2.

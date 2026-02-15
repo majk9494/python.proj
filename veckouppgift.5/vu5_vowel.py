@@ -1,4 +1,4 @@
-# 3b testfil som anropas från test_vu_5_1_3b.py
+# 3b testfil som anropas från test_vowels_vu_5_1_3b.py
 # Den gamla koden:
 #def count_vowels(word):
 #    word = word.lower()
@@ -12,6 +12,10 @@
 # Här är den nya förbättrade koden:
 
 def count_vowels(word):
+    vowels = "aeiouyåäö"
+    return sum(1 for letter in word.lower() if letter in vowels)
+
+def count_vowels_refactor(word):
     vowels = "aeiouyåäö"
     return sum(1 for letter in word.lower() if letter in vowels)
 # Det fungerar med den nya koden också i pytest

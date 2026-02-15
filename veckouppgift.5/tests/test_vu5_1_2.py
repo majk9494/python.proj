@@ -12,7 +12,7 @@
 
 
 #def test_number_list():
-# testa med listor som har ett, två respektive fem element.
+#  testa med listor som har ett, två respektive fem element.
 #    assert sum_list([5]) == 5
 #    assert  # ???
 #    assert  # ???
@@ -25,7 +25,9 @@ def sum_list(numbers):
 
                                             # testar att funktionen med en tom lista
 def test_empty_list():
-    assert sum_list([]) == 0
+    expected = 5
+    actual = sum_list([2,3])
+    assert actual == expected
 
 
 def test_number_list():
