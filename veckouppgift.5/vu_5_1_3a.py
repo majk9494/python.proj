@@ -33,9 +33,8 @@ def count_vowels(word):
     return count
 
 
-# =========================
-# TESTER
-# =========================
+# 6 olika tester
+
 
 def test_no_vowels():
     # Testar ord utan vokaler
@@ -74,3 +73,5 @@ def test_mixed_case():
     # Testar blandning av stora och små bokstäver
     assert count_vowels("AbE") == 2
     assert count_vowels("YOLO") == 2
+
+# 5 tester får passed och 1 får failed alltså den sista med pytest
