@@ -12,7 +12,7 @@
 
 
 #def test_number_list():
-TODO: testa med listor som har ett, två respektive fem element.
+# testa med listor som har ett, två respektive fem element.
 #    assert sum_list([5]) == 5
 #    assert  # ???
 #    assert  # ???
