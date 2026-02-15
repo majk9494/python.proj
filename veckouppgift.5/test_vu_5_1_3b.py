@@ -14,3 +14,5 @@ def test_multiple_vowels():
 def test_swedish_vowels():
     assert count_vowels("räka") == 2
 # När jag kör pytest nu kommer funktionen faila eftersom coutn_volwels inte finns än.
+# Nu när jag skapat filen vowels.py och kan anropa den så fungerar det = TDD GREEN
+
